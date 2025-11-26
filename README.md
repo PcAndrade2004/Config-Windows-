@@ -262,3 +262,15 @@
     ],
     "themes": []
 }
+
+## PowerShell Profile
+  Clear-Host
+#oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/balta-io/oh-my-posh/main/balta-light.omp.json' | Invoke-Expression
+#oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/balta-io/oh-my-posh/main/balta-dark.omp.json' | Invoke-Expression
+Import-Module -Name Terminal-Icons
+Clear-Host
+
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/balta-io/oh-my-posh/main/balta-light.omp.json' | Invoke-Expression
+
+
+
